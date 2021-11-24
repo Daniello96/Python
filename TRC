@@ -1,0 +1,17 @@
+mport random
+people = ['Dawid Babiak', 'Arturt Kornelski', 'Samuel Wisniewski',
+          'Pawel Urban', 'Dawid Misztala', 'Maciej Maniecki',
+          'Mateusz Cieślik', 'Mateusz Obierak', 'Adam Salomon','Jakub Hospod',
+          'Filip Kasza', 'Jakub Polny', 'Grzegorz Wiśniewski',
+          'Jan Solecki', 'Sebastian Wryk', 'Marcink Janik', 'Michal Szmorliśki',
+          'Piotr Kozioł', 'Rafał Shewig']
+teamA = []
+teamB = []
+for i in range(5):
+    one = random.choice(people)
+    teamA.append(one)
+    people.remove(one)
+for i in range(5):
+    one = random.choice(people)
+    teamB.append(one)
+    people.remove(one)
