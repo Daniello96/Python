@@ -1,10 +1,10 @@
-mport random
-people = ['Dawid Babiak', 'Arturt Kornelski', 'Samuel Wisniewski',
-          'Pawel Urban', 'Dawid Misztala', 'Maciej Maniecki',
-          'Mateusz Cieślik', 'Mateusz Obierak', 'Adam Salomon','Jakub Hospod',
-          'Filip Kasza', 'Jakub Polny', 'Grzegorz Wiśniewski',
-          'Jan Solecki', 'Sebastian Wryk', 'Marcink Janik', 'Michal Szmorliśki',
-          'Piotr Kozioł', 'Rafał Shewig']
+import random
+people = ['Dawid', 'Arturt', 'Samuel',
+          'Pawel', 'Dawid2', 'Maciej ',
+          'Mateusz', 'Mateusz2', 'Adam','Jakub',
+          'Filip', 'Jakub2', 'Grzegorz',
+          'Jan', 'Sebastian', 'Marcink', 'Michal2',
+          'Piotr', 'Rafał']
 teamA = []
 teamB = []
 for i in range(5):
