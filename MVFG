@@ -1,0 +1,6 @@
+print('Hello And Welcome To My Very First Game')
+name = input('Whats is your name?') 
+age = int(input('Whats is your age?'))
+print('Hello', name, 'you are', age, 'years old') 
+is_older = age >= 18 
+print(is_older) 
